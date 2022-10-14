@@ -1,11 +1,48 @@
 {
-    "customerid": "1004711",
-    "firstname": "Maxi",
-    "lastname": "Mustermensch",
-    "title": "Dr.hon",
-    "gender": "divers",
-    "gender_detail": "TransXXXXX",
-    "email": "max.mustermensch@clouddna.at",
-    "phone": "+43676124711",
-    "website": "www.clouddna.com"
+    "customers": [
+        {
+            "customerid": "1004711",
+            "firstname": "Maxi",
+            "lastname": "Mustermensch",
+            "title": "Dr.hon",
+            "gender": "divers",
+            "gender_detail": "TransXXXXX",
+            "email": "max.mustermensch@clouddna.at",
+            "phone": "+43676124711",
+            "website": "www.clouddna.com"
+        },
+        {
+            "customerid": "1000000125",
+            "firstname": "Traudi",
+            "lastname": "Mustertier",
+            "title": "Dr.hon",
+            "gender": "female",
+            "gender_detail": "TransXXXXX",
+            "email": "max.mustermensch@clouddna.at",
+            "phone": "+43676124711",
+            "website": "www.clouddna.com"
+        },
+        {
+            "customerid": "10012",
+            "firstname": "Maxi",
+            "lastname": "Tierrmensch",
+            "title": "Dr.hon",
+            "gender": "male",
+            "gender_detail": "TransXXXXX",
+            "email": "max.mustermensch@clouddna.at",
+            "phone": "+43676124711",
+            "website": "www.clouddna.com"
+        },
+        {
+            "customerid": "10012",
+            "firstname": "Fritz",
+            "lastname": "Simlemind",
+            "title": "Dr.hon",
+            "gender": "divers",
+            "gender_detail": "TransXXXXX",
+            "email": "max.mustermensch@clouddna.at",
+            "phone": "+43676124711",
+            "website": "www.clouddna.com"
+        }
+    ]
 }

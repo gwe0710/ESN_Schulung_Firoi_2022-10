@@ -43,11 +43,18 @@
 
                     <Label id="app_label_gender" text="{i18n>app.gender}" 
                             labelFor="app_select_gender"/>
-                    <Select id="app_select_gender" selectedKey="{/gender}" items="{genderModel>/genders}">
+                    <!--<Select id="app_select_gender" selectedKey="{/gender}" items="{genderModel>/genders}">
                         <items>
                             <core:Item id="app_item_gender" key="{genderModel>genderKey}"
                                         text="{genderModel>genderText}"/>
                         </items>
+                    </Select> -->
+                    <Select id="app_select_gender" selectedKey="{/gender}"
+                        items="{genderModel>/genders}">
+                            <items>
+                                <core:Item id="app_item_template"  key="{genderModel>}" text="{path: 'genderModel>',
+                                formatter: '.genderFormatter'}"/>
+                            </items>
                     </Select>
                     <Input id="app_input_gender_detail" value="{/gender_detail}" visible="{= ${/gender} === 'divers' }" />
  
@@ -65,5 +72,15 @@
 	            </f:content>
             </f:SimpleForm>
         </content>
+
+
+<footer>
+    <Bar> 
+        <contentRight>
+            <Button text="Speichern" type="Accept" icon="sap-icon://save" press="OnSavePressed"/>
+        </contentRight>
+    </Bar>
+</footer>
+
     </Page>
 </mvc:View>

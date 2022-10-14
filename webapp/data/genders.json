@@ -1,16 +1,5 @@
 {
-"genders": [
-    {
-        "genderKey": "female",
-        "genderText": "weiblich"
-    }, 
-    {
-        "genderKey": "male",
-        "genderText": "männlich"
-    }, 
-    {
-        "genderKey": "divers",
-        "genderText": "anders"
-    }
- ]
+"genders": 
+    [ "female",  "male",  "divers" ]
+ 
 }
